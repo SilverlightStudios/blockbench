@@ -5,7 +5,7 @@
 			"type": "node",
 			"request": "launch",
 			"name": "Electron Dev",
-			"runtimeExecutable": "npm",
+			"runtimeExecutable": "pnpm",
 			"runtimeArgs": [
 				"run",
 				"dev"
@@ -18,7 +18,7 @@
 			"type": "node",
 			"request": "launch",
 			"name": "Local Server",
-			"runtimeExecutable": "npm",
+			"runtimeExecutable": "pnpm",
 			"runtimeArgs": [
 				"run",
 				"serve"

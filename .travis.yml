@@ -13,10 +13,10 @@ jobs:
       os: linux
       script:
         - sudo apt-get install rpm
-        - npm run publish-linux
+        - pnpm publish-linux
 
 install:
-  - npm install
+  - pnpm install
 
 notifications:
   email: false

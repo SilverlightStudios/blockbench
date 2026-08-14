@@ -11,20 +11,20 @@ All type definitions in the /custom/ folder are manually written and are intende
 
 
 ## Generating types
-Run `npm run generate-types` from the main repo. Ensure typescript throws no errors, otherwise files won't export correctly.
+Run `pnpm generate-types` from the main repo. Ensure typescript throws no errors, otherwise files won't export correctly.
 
 ## Locally testing and using types
 To use these types in other projects on your local PC before they are published, run this command in your other project:
 
-`npm install "C:/path/to/blockbench/types"`
+`pnpm install "C:/path/to/blockbench/types"`
 
 Where the path leads to this /types/ folder in the Blockbench repository.
 
 ## Publishing types
 
-`npm run publish-types --dry-run`
+`pnpm publish-types --dry-run`
 
-`npm run publish-types --tag beta`
+`pnpm publish-types --tag beta`
 
-`npm run publish-types`
+`pnpm publish-types`
 

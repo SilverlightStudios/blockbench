@@ -28,13 +28,13 @@ If you just want to use the latest version, please download the app from the web
 ### Setup Repository
 * Install [NodeJS](https://nodejs.org/en/).
 * Then install all dependencies via
-`npm install`
+`pnpm install`
 
 
 ### Run in Electron
 Use this command or press Ctrl + Shift + B to launch Blockbench in Electron:
 
-`npm run dev`
+`pnpm dev`
 
 To enable debugging in VS Code, switch to the **Run & Debug** tab, select the **"Debug Renderer"** configuration, and press the green arrow button to launch.
 Now you can set breakpoints and debug inside VSCode.
@@ -43,7 +43,7 @@ Now you can set breakpoints and debug inside VSCode.
 ### Run the web app
 Use this command to launch the web app locally:
 
-`npm run serve`
+`pnpm serve`
 
 Now you can open the web app in your browser under http://localhost:3000
 
